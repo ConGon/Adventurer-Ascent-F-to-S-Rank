@@ -1,0 +1,28 @@
+    //        public void dealDamage(Entity who, Entity target) {
+//        int attackAmount = dice.attacksRoll(who.diceValue);
+//        int penAmount = 0;
+//        int totalDamage = 0;
+//
+//        for (int i = 1; i <= attackAmount; i++) {
+//            penAmount = dice.penRoll(armorPen);
+//            totalDamage += penAmount;
+//        }
+//
+//        totalDamage -= target.armor;
+//
+//        if (totalDamage <= 0) {
+//            totalDamage = 1;
+//        }
+//
+//        if ((target.health - totalDamage) <= 0) {
+//            target.health = 0;
+//
+//        } else {
+//            target.health -= totalDamage;
+//        }
+//
+//        System.out.println("The " + who.name + " hit " + target.name
+//        + " for " + totalDamage + " damage in total! " +
+//        "(" + armorPen + "d" + attackAmount + ")\n" + "The " + target.name
+//        + " has " + target.health + " health left!");
+//    }
